@@ -2303,7 +2303,7 @@ Source: Samtec TSW.pdf</description>
 <part name="P2" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="P3" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="P4" library="mylib" deviceset="PCB_CORNER" device=""/>
-<part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device=""/>
+<part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device="" value="a88ec19"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="ICON1" library="mylib" deviceset="ICON_REVISION" device="_2.0" value="r0.1"/>
 <part name="X1" library="con-samtec.local" deviceset="TSW-108-02-S-S" device=""/>
