@@ -5,7 +5,7 @@
 
 # spec
 
-26.02x27.82 mm^2^ LCD
+26.02x27.82 mm<sup>2</sup> LCD
 - 42x35mm pcb
     - 4~6 panelize
 - AkiSpiLcd compatible and extention
