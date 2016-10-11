@@ -828,20 +828,19 @@ design rules under a new name.</description>
 <element name="P4" library="mylib" package="PCB_CORNER" value="" x="4" y="4" smashed="yes" rot="R270">
 <attribute name="NOT_COMPONENT" value="YES" x="4" y="4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="GIT1" library="git-revision" package="GIT-REVISION" value="" x="7" y="0.5" smashed="yes">
-<attribute name="NOT_COMPONENT" value="YES" x="7" y="0.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="7" y="0.5" size="1" layer="21" ratio="20" align="center"/>
+<element name="GIT1" library="git-revision" package="GIT-REVISION" value="a88ec19" x="10.5" y="2">
+<attribute name="NOT_COMPONENT" value="YES" x="10.5" y="2" size="1.778" layer="27" display="off"/>
 </element>
 <element name="ICON1" library="mylib" package="ICON_REVISION2.0" value="r0.1" x="10.8" y="4.5" smashed="yes">
 <attribute name="NOT_COMPONENT" value="YES" x="10.8" y="4.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="10.8" y="4.5" size="2" layer="21" font="vector" ratio="10" align="center"/>
 </element>
 <element name="X1" library="con-samtec.local" package="TSW-108-02-S-S" value="TSW-108-02-S-S" x="3.22" y="17.5006" locked="yes" smashed="yes" rot="R90">
-<attribute name="NAME" x="4.42" y="6.8006" size="1" layer="25" ratio="20" rot="R180"/>
+<attribute name="NAME" x="5.5" y="7.7" size="1" layer="25" ratio="20" rot="R180" align="center"/>
 <attribute name="VALUE" x="4.42" y="29.5006" size="1" layer="27" ratio="20" rot="R180"/>
 </element>
 <element name="X2" library="con-samtec.local" package="TSW-108-02-S-S" value="TSW-108-02-S-S" x="38.78" y="17.5" locked="yes" smashed="yes" rot="R90">
-<attribute name="NAME" x="39.98" y="6.8" size="1" layer="25" ratio="20" rot="R180"/>
+<attribute name="NAME" x="36.7" y="7.7" size="1" layer="25" ratio="20" align="center"/>
 <attribute name="VALUE" x="39.98" y="29.5" size="1" layer="27" ratio="20" rot="R180"/>
 </element>
 <element name="IC4" library="mylib" package="IC_08_1.27_150MIL" value="" x="27" y="22" smashed="yes" rot="R270">
