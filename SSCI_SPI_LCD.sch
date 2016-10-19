@@ -239,6 +239,8 @@
 <wire x1="-7" y1="-8.3" x2="7" y2="-8.3" width="0.2" layer="51"/>
 <wire x1="7" y1="-8.3" x2="7" y2="-3.8" width="0.2" layer="51"/>
 <wire x1="7" y1="-3.8" x2="-7" y2="-3.8" width="0.2" layer="51"/>
+<wire x1="-4.7" y1="-6" x2="4.8" y2="-6" width="3.6" layer="41"/>
+<wire x1="-4.7" y1="-6" x2="4.8" y2="-6" width="3.6" layer="42"/>
 </package>
 <package name="PCB_CORNER">
 <wire x1="5" y1="0" x2="0" y2="-5" width="2" layer="46" curve="-90"/>
@@ -1642,7 +1644,7 @@ w/ 3-State Output</description>
 <technologies>
 <technology name="23K256-I">
 <attribute name="DIGIKEY" value="" constant="no"/>
-<attribute name="MOUSER" value="579-23K256-I/SN" constant="no"/>
+<attribute name="MOUSER" value="579-23K256T-I/SN" constant="no"/>
 </technology>
 <technology name="AT25DN512C">
 <attribute name="DIGIKEY" value="" constant="no"/>
@@ -2497,11 +2499,21 @@ Source: Samtec TSW.pdf</description>
 <instance part="X2" gate="-6" x="25.4" y="55.88" rot="MR0"/>
 <instance part="X2" gate="-7" x="25.4" y="53.34" rot="MR0"/>
 <instance part="X2" gate="-8" x="25.4" y="50.8" rot="MR0"/>
-<instance part="IC4" gate="G$1" x="137.16" y="68.58"/>
-<instance part="IC2" gate="G$1" x="119.38" y="96.52"/>
-<instance part="IC3" gate="G$1" x="111.76" y="149.86"/>
-<instance part="IC1" gate="G$1" x="38.1" y="149.86"/>
-<instance part="IC5" gate="G" x="149.86" y="99.06"/>
+<instance part="IC4" gate="G$1" x="137.16" y="68.58">
+<attribute name="MOUSER" x="119.38" y="58.42" size="1.778" layer="96" display="both"/>
+</instance>
+<instance part="IC2" gate="G$1" x="119.38" y="96.52">
+<attribute name="MOUSER" x="88.9" y="83.82" size="1.778" layer="96" display="both"/>
+</instance>
+<instance part="IC3" gate="G$1" x="111.76" y="149.86">
+<attribute name="MOUSER" x="88.9" y="127" size="1.778" layer="96" display="both"/>
+</instance>
+<instance part="IC1" gate="G$1" x="38.1" y="149.86">
+<attribute name="MOUSER" x="17.78" y="154.94" size="1.778" layer="96" display="both"/>
+</instance>
+<instance part="IC5" gate="G" x="149.86" y="99.06">
+<attribute name="MOUSER" x="134.62" y="111.76" size="1.778" layer="96" display="both"/>
+</instance>
 <instance part="C1" gate="G$1" x="25.4" y="144.78"/>
 <instance part="C2" gate="G$1" x="48.26" y="144.78"/>
 <instance part="C3" gate="G$1" x="106.68" y="101.6"/>
