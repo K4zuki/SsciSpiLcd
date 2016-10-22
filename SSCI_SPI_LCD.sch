@@ -1221,6 +1221,13 @@ chip</description>
 <vertex x="-1.45" y="0.9"/>
 </polygon>
 </package>
+<package name="ICON_REVISION1.7">
+<text x="-0.1" y="0" size="1.7" layer="21" font="vector" ratio="12" align="center">&gt;VALUE</text>
+<wire x1="-3.1" y1="1.2" x2="2.4" y2="1.2" width="0.2" layer="21"/>
+<wire x1="2.4" y1="1.2" x2="2.4" y2="-1.2" width="0.2" layer="21"/>
+<wire x1="2.4" y1="-1.2" x2="-3.1" y2="-1.2" width="0.2" layer="21"/>
+<wire x1="-3.1" y1="-1.2" x2="-3.1" y2="1.2" width="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LCD_GLCD_400X240">
@@ -1473,6 +1480,13 @@ chip</description>
 </technologies>
 </device>
 <device name="_1.2" package="ICON_REVISION1.2">
+<technologies>
+<technology name="">
+<attribute name="NOT_COMPONENT" value="YES" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1.7" package="ICON_REVISION1.7">
 <technologies>
 <technology name="">
 <attribute name="NOT_COMPONENT" value="YES" constant="no"/>
@@ -2210,6 +2224,16 @@ w/ 3-State Output</description>
 <circle x="0" y="0" radius="0.2" width="0.2" layer="51"/>
 <text x="0" y="0" size="1" layer="21" ratio="20" align="center">&gt;VALUE</text>
 </package>
+<package name="GIT-REVISION_1.2">
+<text x="0" y="0" size="1.27" layer="51">&gt;GIT</text>
+<circle x="0" y="0" radius="0.2" width="0.2" layer="51"/>
+<text x="0" y="0" size="1.2" layer="21" ratio="18" align="center">&gt;VALUE</text>
+</package>
+<package name="GIT-REVISION_1.7">
+<text x="0" y="0" size="1.27" layer="51">&gt;GIT</text>
+<circle x="0" y="0" radius="0.2" width="0.2" layer="51"/>
+<text x="0" y="0" size="1.7" layer="21" ratio="12" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="GIT-REVISION">
@@ -2226,7 +2250,21 @@ w/ 3-State Output</description>
 <gate name="G$1" symbol="GIT-REVISION" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="GIT-REVISION">
+<device name="_1.0" package="GIT-REVISION">
+<technologies>
+<technology name="">
+<attribute name="NOT_COMPONENT" value="YES" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1.2" package="GIT-REVISION_1.2">
+<technologies>
+<technology name="">
+<attribute name="NOT_COMPONENT" value="YES" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1.7" package="GIT-REVISION_1.7">
 <technologies>
 <technology name="">
 <attribute name="NOT_COMPONENT" value="YES" constant="no"/>
@@ -2431,9 +2469,9 @@ Source: Samtec TSW.pdf</description>
 <part name="P2" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="P3" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="P4" library="mylib" deviceset="PCB_CORNER" device=""/>
-<part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device="" value="e61b24a"/>
+<part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device="_1.2" value="dd6afad"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
-<part name="ICON1" library="mylib" deviceset="ICON_REVISION" device="_2.0" value="r0.1"/>
+<part name="ICON1" library="mylib" deviceset="ICON_REVISION" device="_1.7" value="r0.2"/>
 <part name="X1" library="con-samtec.local" deviceset="TSW-108-02-S-S" device=""/>
 <part name="X2" library="con-samtec.local" deviceset="TSW-108-02-S-S" device=""/>
 <part name="IC4" library="mylib" deviceset="IC_MEMORY_8P_*" device="_SOP" technology="23K256-I"/>
