@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="0" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -44,7 +44,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="0" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -64,7 +64,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Attributes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
 <layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
@@ -125,14 +125,14 @@
 <wire x1="32" y1="23.6" x2="32" y2="22.3" width="0" layer="41"/>
 <wire x1="30.5" y1="25.5" x2="30.5" y2="23.8" width="0" layer="41"/>
 <wire x1="19.8" y1="28.5" x2="20.3" y2="28.5" width="0" layer="41"/>
-<wire x1="21.4" y1="30" x2="21.4" y2="30.5" width="0" layer="41"/>
-<wire x1="20.7" y1="30" x2="20.7" y2="30.5" width="0" layer="41"/>
-<wire x1="20.7" y1="25.5" x2="20.7" y2="26" width="0" layer="41"/>
-<wire x1="21.4" y1="25.5" x2="21.4" y2="26" width="0" layer="41"/>
+<wire x1="22.8" y1="30" x2="22.8" y2="30.5" width="0" layer="41"/>
+<wire x1="21.9" y1="30" x2="21.9" y2="30.5" width="0" layer="41"/>
+<wire x1="21.9" y1="25.5" x2="21.9" y2="26" width="0" layer="41"/>
+<wire x1="22.8" y1="25.6" x2="22.8" y2="26.1" width="0" layer="41"/>
 <wire x1="21.3" y1="25.2" x2="20.8" y2="25.2" width="0" layer="41"/>
-<wire x1="20.8" y1="29.5" x2="22.8" y2="29.5" width="0" layer="41"/>
-<wire x1="22.8" y1="29.5" x2="22.8" y2="26.5" width="0" layer="41"/>
-<wire x1="20.8" y1="26.5" x2="20.8" y2="29.5" width="0" layer="41"/>
+<wire x1="22.1" y1="29.5" x2="24.1" y2="29.5" width="0" layer="41"/>
+<wire x1="24.1" y1="29.5" x2="24.1" y2="26.5" width="0" layer="41"/>
+<wire x1="22.1" y1="26.5" x2="22.1" y2="29.5" width="0" layer="41"/>
 <wire x1="32.6" y1="23.6" x2="32.6" y2="22.3" width="0" layer="41"/>
 <dimension x1="0" y1="0" x2="0" y2="10" x3="-8.6" y3="5" textsize="1.778" layer="47"/>
 <dimension x1="0" y1="45" x2="0" y2="55" x3="-8.6" y3="50" textsize="1.778" layer="47"/>
@@ -171,6 +171,7 @@
 <text x="45.2" y="21.2" size="1.2" layer="21" ratio="20" align="center-right">CSL</text>
 <text x="45.2" y="18.6" size="1.2" layer="21" ratio="20" align="center-right">SCK</text>
 <dimension x1="13.49" y1="27.5" x2="46.51" y2="27.5" x3="30" y3="2.9" textsize="1.2" textratio="20" layer="47" dtype="horizontal" unit="inch" visible="yes"/>
+<wire x1="31.9" y1="24.1" x2="32.5" y2="24.1" width="0" layer="41"/>
 </plain>
 <libraries>
 <library name="mylib">
@@ -978,7 +979,7 @@ design rules under a new name.</description>
 <element name="P4" library="mylib" package="PCB_CORNER" value="" x="14" y="14" smashed="yes" rot="R270">
 <attribute name="NOT_COMPONENT" value="YES" x="14" y="14" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="GIT1" library="git-revision" package="GIT-REVISION_1.2" value="dd6afad" x="38.7" y="16.8">
+<element name="GIT1" library="git-revision" package="GIT-REVISION_1.2" value="78acb65" x="38.7" y="16.8">
 <attribute name="NOT_COMPONENT" value="YES" x="38.7" y="16.8" size="1.778" layer="27" display="off"/>
 </element>
 <element name="ICON1" library="mylib" package="ICON_REVISION1.7" value="r0.2" x="20.2" y="13.6">
@@ -1129,8 +1130,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="34.3" y="26.3" size="1" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="VALUE" x="31.6" y="26.3" size="1" layer="27" font="vector" align="center"/>
 </element>
-<element name="ICON2" library="mylib" package="ICON_OSHW" value="" x="39.6" y="13.2">
-<attribute name="NOT_COMPONENT" value="YES" x="39.6" y="13.2" size="2" layer="27" ratio="20" display="off"/>
+<element name="ICON2" library="mylib" package="ICON_OSHW" value="" x="40" y="13.3">
+<attribute name="NOT_COMPONENT" value="YES" x="40" y="13.3" size="2" layer="27" ratio="20" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1183,9 +1184,9 @@ design rules under a new name.</description>
 </polygon>
 <via x="17.5" y="27.4" extent="1-16" drill="0.3"/>
 <wire x1="31.25" y1="22.95" x2="31.25" y2="21.75" width="0.3" layer="1"/>
-<wire x1="31.25" y1="21.75" x2="31.2" y2="21.7" width="0.3" layer="1"/>
-<wire x1="31.75" y1="22.95" x2="31.75" y2="21.55" width="0.3" layer="1"/>
-<wire x1="31.75" y1="21.55" x2="31.8" y2="21.5" width="0.3" layer="1"/>
+<wire x1="31.25" y1="21.75" x2="31.3" y2="21.7" width="0.3" layer="1"/>
+<wire x1="31.75" y1="22.95" x2="31.75" y2="21.75" width="0.3" layer="1"/>
+<wire x1="31.75" y1="21.75" x2="31.8" y2="21.7" width="0.3" layer="1"/>
 <wire x1="32.25" y1="22.95" x2="32.25" y2="24.45" width="0.3" layer="1"/>
 <wire x1="32.25" y1="24.45" x2="32.2" y2="24.5" width="0.3" layer="1"/>
 <wire x1="21.35" y1="28.75" x2="20.65" y2="28.75" width="0.2" layer="1"/>
@@ -1213,6 +1214,10 @@ design rules under a new name.</description>
 <contactref element="LCD1" pad="PAD1"/>
 <wire x1="26.2" y1="29.3" x2="26.2" y2="28.9" width="0.8" layer="16"/>
 <wire x1="26.2" y1="29.3" x2="25.7" y2="28.8" width="0.8" layer="16"/>
+<wire x1="32.25" y1="22.95" x2="32.25" y2="21.75" width="0.3" layer="1"/>
+<wire x1="32.25" y1="21.75" x2="32.3" y2="21.7" width="0.3" layer="1"/>
+<wire x1="33" y1="24.5" x2="32.2" y2="24.5" width="0.6" layer="1"/>
+<wire x1="33" y1="26.3" x2="32.2" y2="26.3" width="0.6" layer="1"/>
 </signal>
 <signal name="5V">
 <contactref element="X1" pad="1"/>
@@ -1260,9 +1265,9 @@ design rules under a new name.</description>
 <wire x1="16.9" y1="28.8" x2="13.52" y2="28.8" width="0.2" layer="1"/>
 <wire x1="13.52" y1="28.8" x2="13.49" y2="28.77" width="0.2" layer="1"/>
 <wire x1="19.6" y1="21" x2="16.1" y2="24.5" width="0.3" layer="16"/>
-<wire x1="16.1" y1="24.5" x2="16.1" y2="24.9" width="0.3" layer="16"/>
-<wire x1="16.1" y1="26.16" x2="13.49" y2="28.77" width="0.3" layer="16"/>
-<wire x1="16.1" y1="24.9" x2="16.1" y2="26.16" width="0" layer="19" extent="16-16"/>
+<wire x1="16.1" y1="24.5" x2="16.1" y2="26.1" width="0.3" layer="16"/>
+<wire x1="13.49" y1="28.77" x2="13.49" y2="28.71" width="0.3" layer="16"/>
+<wire x1="13.49" y1="28.71" x2="16.1" y2="26.1" width="0.3" layer="16"/>
 </signal>
 <signal name="MOSI">
 <contactref element="IC3" pad="2"/>
@@ -1460,10 +1465,8 @@ design rules under a new name.</description>
 <wire x1="20.8" y1="26.7" x2="20.3" y2="26.2" width="0.2" layer="1"/>
 <via x="20.3" y="26.2" extent="1-16" drill="0.3"/>
 <wire x1="25.2" y1="26.2" x2="25.7" y2="25.7" width="0.2" layer="16"/>
-<wire x1="28.25" y1="22.95" x2="28.25" y2="23.45" width="0.2" layer="1"/>
-<wire x1="28.25" y1="23.45" x2="28.3" y2="23.5" width="0.2" layer="1"/>
-<wire x1="28.3" y1="23.5" x2="28.3" y2="24.5" width="0.2" layer="1"/>
-<wire x1="28.3" y1="24.5" x2="27.1" y2="25.7" width="0.2" layer="1"/>
+<wire x1="28.25" y1="22.95" x2="28.25" y2="24.55" width="0.2" layer="1"/>
+<wire x1="28.25" y1="24.55" x2="27.1" y2="25.7" width="0.2" layer="1"/>
 <via x="27.1" y="25.7" extent="1-16" drill="0.3"/>
 <wire x1="33.2" y1="32.635" x2="32.365" y2="32.635" width="0.2" layer="1"/>
 <wire x1="32.365" y1="32.635" x2="32.2" y2="32.8" width="0.2" layer="1"/>
@@ -1553,26 +1556,22 @@ design rules under a new name.</description>
 <contactref element="IC2" pad="2"/>
 <contactref element="LCD1" pad="3"/>
 <contactref element="IC3" pad="13"/>
-<wire x1="28.75" y1="22.95" x2="28.75" y2="23.45" width="0.2" layer="1"/>
-<wire x1="28.75" y1="23.45" x2="28.7" y2="23.5" width="0.2" layer="1"/>
+<wire x1="28.75" y1="22.95" x2="28.75" y2="24.85" width="0.2" layer="1"/>
 <wire x1="24.85" y1="26.75" x2="24.9" y2="26.7" width="0.2" layer="1"/>
 <wire x1="24.9" y1="26.7" x2="26.9" y2="26.7" width="0.2" layer="1"/>
 <wire x1="27.8" y1="28" x2="26.9" y2="28" width="0.2" layer="1"/>
 <wire x1="26.9" y1="28" x2="26.9" y2="26.7" width="0.2" layer="16"/>
 <via x="26.9" y="28" extent="1-16" drill="0.3"/>
 <via x="26.9" y="26.7" extent="1-16" drill="0.3"/>
-<wire x1="28.7" y1="23.5" x2="28.7" y2="24.9" width="0.2" layer="1"/>
-<wire x1="28.7" y1="24.9" x2="26.9" y2="26.7" width="0.2" layer="1"/>
+<wire x1="28.75" y1="24.85" x2="26.9" y2="26.7" width="0.2" layer="1"/>
 </signal>
 <signal name="DISP-">
 <contactref element="LCD1" pad="5"/>
 <contactref element="IC3" pad="14"/>
 <wire x1="24.85" y1="27.25" x2="24.9" y2="27.3" width="0.2" layer="1"/>
 <wire x1="24.9" y1="27.3" x2="27.1" y2="27.3" width="0.2" layer="1"/>
-<wire x1="29.75" y1="22.95" x2="29.75" y2="23.45" width="0.2" layer="1"/>
-<wire x1="29.75" y1="23.45" x2="29.7" y2="23.5" width="0.2" layer="1"/>
-<wire x1="29.7" y1="23.5" x2="29.7" y2="24.7" width="0.2" layer="1"/>
-<wire x1="29.7" y1="24.7" x2="27.1" y2="27.3" width="0.2" layer="1"/>
+<wire x1="29.75" y1="22.95" x2="29.75" y2="24.65" width="0.2" layer="1"/>
+<wire x1="29.75" y1="24.65" x2="27.1" y2="27.3" width="0.2" layer="1"/>
 </signal>
 </signals>
 </board>
