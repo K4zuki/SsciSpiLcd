@@ -8294,7 +8294,10 @@ chip</description>
 <connect gate="G$1" pin="SCK" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY" value="HFJ110CT-ND" constant="no"/>
+<attribute name="MOUSER" value="798-FH12-10S-0.5SH55" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -8669,7 +8672,7 @@ w/ 3-State Output</description>
 </technology>
 </technologies>
 </device>
-<device name="_SC82−AB" package="SOT130P220X135-4N">
+<device name="_SC82-AB" package="SOT130P220X135-4N">
 <connects>
 <connect gate="G$1" pin="ADJ" pad="1"/>
 <connect gate="G$1" pin="IN" pad="2"/>
@@ -9364,7 +9367,7 @@ Source: Samtec TSW.pdf</description>
 <part name="P2" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="P3" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="P4" library="mylib" deviceset="PCB_CORNER" device=""/>
-<part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device="_1.2" value="78acb65"/>
+<part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device="_1.2" value="fd68d81"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="ICON1" library="mylib" deviceset="ICON_REVISION" device="_1.7" value="r0.2"/>
 <part name="X1" library="con-samtec.local" deviceset="TSW-108-02-S-S" device=""/>
@@ -9372,7 +9375,7 @@ Source: Samtec TSW.pdf</description>
 <part name="IC4" library="mylib" deviceset="IC_MEMORY_8P_*" device="_SOP" technology="23K256-I"/>
 <part name="IC2" library="mylib" deviceset="74*1G00" device="_DRL" technology="LVC"/>
 <part name="IC3" library="mylib" deviceset="74*541" device="_RGY" technology="LVC"/>
-<part name="IC1" library="mylib" deviceset="LDO4_*" device="_SC82−AB" technology="3.3"/>
+<part name="IC1" library="mylib" deviceset="LDO4_*" device="_SC82-AB" technology="3.3"/>
 <part name="IC5" library="mylib" deviceset="74*1G125" device="_DRL" technology="LVC"/>
 <part name="C1" library="mylib" deviceset="C_SMD_*" device="_1608" technology="10U"/>
 <part name="C2" library="mylib" deviceset="C_SMD_*" device="_1608" technology="10U"/>
@@ -9409,7 +9412,9 @@ Source: Samtec TSW.pdf</description>
 <wire x1="147.32" y1="5.08" x2="154.94" y2="5.08" width="0.1524" layer="94"/>
 </plain>
 <instances>
-<instance part="LCD1" gate="G$1" x="208.28" y="88.9"/>
+<instance part="LCD1" gate="G$1" x="208.28" y="88.9">
+<attribute name="MOUSER" x="228.6" y="104.14" size="1.778" layer="96" rot="R180" display="both"/>
+</instance>
 <instance part="P1" gate="G$1" x="154.94" y="17.78" rot="R90"/>
 <instance part="P2" gate="G$1" x="147.32" y="17.78" rot="R180"/>
 <instance part="P3" gate="G$1" x="147.32" y="10.16" rot="R270"/>
@@ -9443,7 +9448,7 @@ Source: Samtec TSW.pdf</description>
 <attribute name="MOUSER" x="88.9" y="127" size="1.778" layer="96" display="both"/>
 </instance>
 <instance part="IC1" gate="G$1" x="38.1" y="149.86">
-<attribute name="MOUSER" x="17.78" y="154.94" size="1.778" layer="96" display="both"/>
+<attribute name="MOUSER" x="58.42" y="157.48" size="1.778" layer="96" rot="R180" display="both"/>
 </instance>
 <instance part="IC5" gate="G" x="149.86" y="99.06">
 <attribute name="MOUSER" x="134.62" y="111.76" size="1.778" layer="96" display="both"/>
