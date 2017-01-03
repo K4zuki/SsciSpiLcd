@@ -514,7 +514,7 @@ SOT23-5&lt;br&gt;</description>
 <wire x1="-0.5" y1="-0.6" x2="-0.5" y2="-0.8" width="0.2" layer="31"/>
 <wire x1="0" y1="-0.6" x2="0" y2="-0.8" width="0.2" layer="31"/>
 <wire x1="0.5" y1="-0.6" x2="0.5" y2="-0.8" width="0.2" layer="31"/>
-<text x="0" y="0" size="1" layer="25" ratio="20">&gt;NAME</text>
+<text x="0" y="0" size="1" layer="25" ratio="20" align="center">&gt;NAME</text>
 </package>
 <package name="IC_08_1.27_150MIL">
 <wire x1="2.4" y1="1.9" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
@@ -8620,7 +8620,7 @@ w/ 3-State Output</description>
 </connects>
 <technologies>
 <technology name="23K256-I">
-<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="DIGIKEY" value="23K256T-I/SNCT-ND" constant="no"/>
 <attribute name="MOUSER" value="579-23K256T-I/SN" constant="no"/>
 </technology>
 <technology name="AT25DN512C">
