@@ -1,5 +1,5 @@
 (gerbv-file-version! "2.0A")
-(define-layer! 8 (cons 'filename "SSCI_SPI_LCD_P.GBO")(cons 'visible #f)(cons 'color #(58082 58082 58082)))
+(define-layer! 8 (cons 'filename "SSCI_SPI_LCD_P.GBO")(cons 'visible #t)(cons 'color #(58082 58082 58082)))
 (define-layer! 7 (cons 'filename "SSCI_SPI_LCD_P.GBS")(cons 'visible #t)(cons 'color #(65535 51914 57825)))
 (define-layer! 6 (cons 'filename "SSCI_SPI_LCD_P.GBL")(cons 'visible #t)(cons 'color #(65021 53970 52942)))
 (define-layer! 5 (cons 'filename "SSCI_SPI_LCD_P.GTS")(cons 'visible #t)(cons 'color #(65021 61166 50629)))
