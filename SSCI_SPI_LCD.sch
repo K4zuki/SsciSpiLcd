@@ -8068,6 +8068,59 @@ chip</description>
 <vertex x="4.999996875" y="2.8736625"/>
 </polygon>
 </package>
+<package name="TP06RECT">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<smd name="TP" x="0" y="0" dx="0.4" dy="0.6" layer="1" stop="no" cream="no"/>
+<text x="0" y="0" size="1.2" layer="49" ratio="17" align="center">&gt;NAME</text>
+<text x="-0.254" y="-0.381" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="0" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+<rectangle x1="-0.25" y1="-0.35" x2="0.25" y2="0.35" layer="29"/>
+<wire x1="-0.4" y1="0.5" x2="0.4" y2="0.5" width="0.2" layer="21"/>
+<wire x1="0.4" y1="0.5" x2="0.4" y2="-0.5" width="0.2" layer="21"/>
+<wire x1="0.4" y1="-0.5" x2="-0.4" y2="-0.5" width="0.2" layer="21"/>
+<wire x1="-0.4" y1="-0.5" x2="-0.4" y2="0.5" width="0.2" layer="21"/>
+</package>
+<package name="FIDUCIAL">
+<smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<text x="0" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+<rectangle x1="-2" y1="-2" x2="2" y2="2" layer="29"/>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.2" layer="1"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.2" layer="1"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.2" layer="1"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.2" layer="1"/>
+</package>
+<package name="TP_1608">
+<smd name="TP" x="0" y="0" dx="1.8" dy="1" layer="1" stop="no" cream="no"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.2" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.2" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.2" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.2" layer="51"/>
+<wire x1="-1.1" y1="0.7" x2="1.1" y2="0.7" width="0.2" layer="21"/>
+<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="1.1" y1="-0.7" x2="-1.1" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="-1.1" y1="-0.7" x2="-1.1" y2="0.7" width="0.2" layer="21"/>
+<rectangle x1="-0.95" y1="-0.55" x2="0.95" y2="0.55" layer="29"/>
+<wire x1="-0.65" y1="0.25" x2="0.65" y2="0.25" width="0.4" layer="31"/>
+<wire x1="0.65" y1="0.25" x2="0.65" y2="-0.25" width="0.4" layer="31"/>
+<wire x1="0.65" y1="-0.25" x2="-0.65" y2="-0.25" width="0.4" layer="31"/>
+<wire x1="-0.65" y1="-0.25" x2="-0.65" y2="0.25" width="0.4" layer="31"/>
+<rectangle x1="-0.65" y1="-0.25" x2="0.65" y2="0.25" layer="31"/>
+<text x="0" y="0" size="1" layer="49" ratio="20" align="center">&gt;NAME</text>
+</package>
+<package name="TP_4020">
+<smd name="TP" x="0" y="0" dx="3.8" dy="2" layer="1" stop="no" cream="no"/>
+<wire x1="-1.65" y1="0.75" x2="1.65" y2="0.75" width="0.4" layer="31"/>
+<wire x1="1.65" y1="0.75" x2="1.65" y2="-0.75" width="0.4" layer="31"/>
+<wire x1="1.65" y1="-0.75" x2="-1.65" y2="-0.75" width="0.4" layer="31"/>
+<wire x1="-1.65" y1="-0.75" x2="-1.65" y2="0.75" width="0.4" layer="31"/>
+<rectangle x1="-1.95" y1="-1.05" x2="1.95" y2="1.05" layer="29"/>
+<rectangle x1="-1.5" y1="-0.6" x2="1.5" y2="0.6" layer="31"/>
+<wire x1="-2.1" y1="1.2" x2="2.1" y2="1.2" width="0.2" layer="21"/>
+<wire x1="2.1" y1="1.2" x2="2.1" y2="-1.2" width="0.2" layer="21"/>
+<wire x1="2.1" y1="-1.2" x2="-2.1" y2="-1.2" width="0.2" layer="21"/>
+<wire x1="-2.1" y1="-1.2" x2="-2.1" y2="1.2" width="0.2" layer="21"/>
+<text x="0" y="0" size="1" layer="49" ratio="20" align="center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LCD_GLCD_400X240">
@@ -8270,6 +8323,11 @@ chip</description>
 <text x="2.54" y="2.54" size="6.4516" layer="94" font="vector" ratio="10">Mi</text>
 <text x="0" y="12.7" size="2.54" layer="95" font="vector" ratio="10">&gt;NAME</text>
 <text x="0" y="-2.54" size="2.54" layer="96" font="vector" ratio="10">&gt;VALUE</text>
+</symbol>
+<symbol name="MPIN">
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<rectangle x1="0" y1="-0.254" x2="1.778" y2="0.254" layer="94"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9113,6 +9171,54 @@ w/ 3-State Output</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="TESTPAD" prefix="TP" uservalue="yes">
+<description>test points</description>
+<gates>
+<gate name="1" symbol="MPIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TP06RECT">
+<connects>
+<connect gate="1" pin="1" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="NOT_COMPONENT" value="YES" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_F" package="FIDUCIAL">
+<connects>
+<connect gate="1" pin="1" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="NOT_COMPONENT" value="YES" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1608" package="TP_1608">
+<connects>
+<connect gate="1" pin="1" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="A106145CT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_4020" package="TP_4020">
+<connects>
+<connect gate="1" pin="1" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="36-5019CT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="git-revision">
@@ -9367,7 +9473,7 @@ Source: Samtec TSW.pdf</description>
 <part name="P2" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="P3" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="P4" library="mylib" deviceset="PCB_CORNER" device=""/>
-<part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device="_1.2" value="fd68d81"/>
+<part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device="_1.2" value="92d462d"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="ICON1" library="mylib" deviceset="ICON_REVISION" device="_1.7" value="r0.2"/>
 <part name="X1" library="con-samtec.local" deviceset="TSW-108-02-S-S" device=""/>
@@ -9402,6 +9508,9 @@ Source: Samtec TSW.pdf</description>
 <part name="SUPPLY9" library="mylib" deviceset="GND" device=""/>
 <part name="ICON2" library="mylib" deviceset="ICON_OSHW" device=""/>
 <part name="I1" library="mylib" deviceset="ICON_MINLAB" device="_5.2S"/>
+<part name="TP1" library="mylib" deviceset="TESTPAD" device="_F"/>
+<part name="TP2" library="mylib" deviceset="TESTPAD" device="_F"/>
+<part name="TP3" library="mylib" deviceset="TESTPAD" device="_F"/>
 </parts>
 <sheets>
 <sheet>
@@ -9478,6 +9587,9 @@ Source: Samtec TSW.pdf</description>
 <instance part="SUPPLY9" gate="GND" x="226.06" y="73.66"/>
 <instance part="ICON2" gate="G$1" x="248.92" y="21.59"/>
 <instance part="I1" gate="G$1" x="127" y="7.62"/>
+<instance part="TP1" gate="1" x="114.3" y="20.32"/>
+<instance part="TP2" gate="1" x="114.3" y="17.78"/>
+<instance part="TP3" gate="1" x="114.3" y="15.24"/>
 </instances>
 <busses>
 </busses>
