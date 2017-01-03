@@ -3326,7 +3326,7 @@ design rules under a new name.</description>
 <element name="P4" library="mylib" package="PCB_CORNER" value="" x="14" y="14" smashed="yes" rot="R270">
 <attribute name="NOT_COMPONENT" value="YES" x="14" y="14" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="GIT1" library="git-revision" package="GIT-REVISION_1.2" value="92d462d" x="38.7" y="16.8">
+<element name="GIT1" library="git-revision" package="GIT-REVISION_1.2" value="fcf31d8" x="38.7" y="16.8">
 <attribute name="NOT_COMPONENT" value="YES" x="38.7" y="16.8" size="1.778" layer="27" display="off"/>
 </element>
 <element name="ICON1" library="mylib" package="ICON_REVISION1.7" value="r0.3" x="40" y="42.8">
@@ -3579,6 +3579,11 @@ design rules under a new name.</description>
 <wire x1="32.25" y1="21.75" x2="32.3" y2="21.7" width="0.3" layer="1"/>
 <wire x1="33" y1="24.5" x2="32.2" y2="24.5" width="0.6" layer="1"/>
 <wire x1="33" y1="26.3" x2="32.2" y2="26.3" width="0.6" layer="1"/>
+<wire x1="36.7" y1="37" x2="36.7" y2="36.2" width="0.8" layer="16"/>
+<via x="36.7" y="35.3" extent="1-16" drill="0.3"/>
+<wire x1="36.7" y1="36.2" x2="36.7" y2="35.3" width="0.8" layer="16"/>
+<wire x1="36.7" y1="36.2" x2="35.9" y2="37" width="0.8" layer="16"/>
+<wire x1="36.7" y1="36.2" x2="37.5" y2="37" width="0.8" layer="16"/>
 </signal>
 <signal name="5V">
 <contactref element="X1" pad="1"/>
