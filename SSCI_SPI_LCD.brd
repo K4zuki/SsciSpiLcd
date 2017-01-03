@@ -172,6 +172,10 @@
 <text x="45.2" y="18.6" size="1.2" layer="21" ratio="20" align="center-right">SCK</text>
 <dimension x1="13.49" y1="27.5" x2="46.51" y2="27.5" x3="30" y3="2.9" textsize="1.2" textratio="20" layer="47" dtype="horizontal" unit="inch" visible="yes"/>
 <wire x1="31.9" y1="24.1" x2="32.5" y2="24.1" width="0" layer="41"/>
+<hole x="5" y="5" drill="4"/>
+<hole x="105" y="5" drill="4"/>
+<hole x="105" y="95" drill="4"/>
+<hole x="5" y="95" drill="4"/>
 </plain>
 <libraries>
 <library name="mylib">
@@ -3083,6 +3087,27 @@
 <wire x1="2" y1="-2" x2="-2" y2="-2" width="0.2" layer="1"/>
 <wire x1="-2" y1="-2" x2="-2" y2="2" width="0.2" layer="1"/>
 </package>
+<package name="PHA-1X08SG">
+<pad name="1" x="8.89" y="0" drill="0.8" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="2" x="6.35" y="0" drill="0.8" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="3" x="3.81" y="0" drill="0.8" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="4" x="1.27" y="0" drill="0.8" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="5" x="-1.27" y="0" drill="0.8" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="6" x="-3.81" y="0" drill="0.8" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="7" x="-6.35" y="0" drill="0.8" diameter="1.5" shape="octagon" rot="R180"/>
+<pad name="8" x="-8.89" y="0" drill="0.8" diameter="1.5" shape="octagon" rot="R180"/>
+<text x="-10.4" y="-1.2" size="1" layer="25" ratio="20" rot="R90">&gt;NAME</text>
+<text x="11.4" y="-1.2" size="1" layer="27" ratio="20" rot="R90">&gt;VALUE</text>
+<wire x1="-10.2" y1="1.1" x2="10.2" y2="1.1" width="0.2" layer="21"/>
+<wire x1="10.2" y1="1.1" x2="10.2" y2="-1.1" width="0.2" layer="21"/>
+<polygon width="0.2" layer="21">
+<vertex x="10.18" y="0.5"/>
+<vertex x="9.58" y="1.1"/>
+<vertex x="10.18" y="1.1"/>
+</polygon>
+<wire x1="-10.2" y1="1.1" x2="-10.2" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-10.2" y1="-1.1" x2="10.2" y2="-1.1" width="0.2" layer="21"/>
+</package>
 </packages>
 </library>
 <library name="git-revision">
@@ -3091,43 +3116,6 @@
 <text x="0" y="0" size="1.27" layer="51">&gt;GIT</text>
 <circle x="0" y="0" radius="0.2" width="0.2" layer="51"/>
 <text x="0" y="0" size="1.2" layer="21" ratio="18" align="center">&gt;VALUE</text>
-</package>
-</packages>
-</library>
-<library name="con-samtec.local">
-<description>&lt;b&gt;Samtec Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="TSW-108-02-S-S">
-<description>&lt;b&gt;THROUGH-HOLE .025inch SQ POST HEADER&lt;/b&gt;&lt;p&gt;
-Source: Samtec TSW.pdf</description>
-<wire x1="-10.289" y1="1.155" x2="10.289" y2="1.155" width="0.2032" layer="21"/>
-<wire x1="10.289" y1="1.155" x2="10.289" y2="-1.155" width="0.2032" layer="21"/>
-<wire x1="10.289" y1="-1.155" x2="-10.289" y2="-1.155" width="0.2032" layer="21"/>
-<wire x1="-10.289" y1="-1.155" x2="-10.289" y2="1.155" width="0.2032" layer="21"/>
-<pad name="1" x="8.89" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="2" x="6.35" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="3" x="3.81" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="4" x="1.27" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="5" x="-1.27" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="6" x="-3.81" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="7" x="-6.35" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="8" x="-8.89" y="0" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<text x="-10.7" y="-1.2" size="1" layer="25" ratio="20" rot="R90">&gt;NAME</text>
-<text x="12" y="-1.2" size="1" layer="27" ratio="20" rot="R90">&gt;VALUE</text>
-<rectangle x1="-9.24" y1="-0.35" x2="-8.54" y2="0.35" layer="51"/>
-<rectangle x1="-6.7" y1="-0.35" x2="-6" y2="0.35" layer="51"/>
-<rectangle x1="-4.16" y1="-0.35" x2="-3.46" y2="0.35" layer="51"/>
-<rectangle x1="-1.62" y1="-0.35" x2="-0.92" y2="0.35" layer="51"/>
-<rectangle x1="0.92" y1="-0.35" x2="1.62" y2="0.35" layer="51"/>
-<rectangle x1="3.46" y1="-0.35" x2="4.16" y2="0.35" layer="51"/>
-<rectangle x1="6" y1="-0.35" x2="6.7" y2="0.35" layer="51"/>
-<rectangle x1="8.54" y1="-0.35" x2="9.24" y2="0.35" layer="51"/>
-<polygon width="0.2" layer="21">
-<vertex x="9.4" y="1.1"/>
-<vertex x="10.2" y="0.3"/>
-<vertex x="10.2" y="1.1"/>
-</polygon>
 </package>
 </packages>
 </library>
@@ -3341,16 +3329,18 @@ design rules under a new name.</description>
 <element name="GIT1" library="git-revision" package="GIT-REVISION_1.2" value="92d462d" x="38.7" y="16.8">
 <attribute name="NOT_COMPONENT" value="YES" x="38.7" y="16.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="ICON1" library="mylib" package="ICON_REVISION1.7" value="r0.2" x="40.5" y="43.3">
-<attribute name="NOT_COMPONENT" value="YES" x="40.5" y="43.3" size="1.778" layer="27" display="off"/>
+<element name="ICON1" library="mylib" package="ICON_REVISION1.7" value="r0.3" x="40" y="42.8">
+<attribute name="NOT_COMPONENT" value="YES" x="40" y="42.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="X1" library="con-samtec.local" package="TSW-108-02-S-S" value="TSW-108-02-S-S" x="13.49" y="27.5" smashed="yes" rot="R90">
+<element name="X1" library="mylib" package="PHA-1X08SG" value="PHA-1X08SG" x="13.49" y="27.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.33" y="27.5" size="1" layer="25" ratio="20" align="center-right"/>
 <attribute name="VALUE" x="14.69" y="39.5" size="1" layer="27" ratio="20" rot="R180"/>
+<attribute name="AKIZUKI" value="C-04394" x="13.49" y="27.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="X2" library="con-samtec.local" package="TSW-108-02-S-S" value="TSW-108-02-S-S" x="46.51" y="27.5" smashed="yes" rot="R90">
+<element name="X2" library="mylib" package="PHA-1X08SG" value="PHA-1X08SG" x="46.51" y="27.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="47.9" y="27.5" size="1" layer="25" ratio="20" rot="R180" align="center-right"/>
 <attribute name="VALUE" x="47.71" y="39.5" size="1" layer="27" ratio="20" rot="R180"/>
+<attribute name="AKIZUKI" value="C-04394" x="46.51" y="27.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="IC4" library="mylib" package="IC_08_1.27_150MIL" value="" x="36" y="32" smashed="yes" rot="R270">
 <attribute name="MOUSER" value="579-23K256T-I/SN" x="36" y="32" size="1.778" layer="27" rot="R270" display="off"/>
