@@ -9437,7 +9437,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="P2" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="P3" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="P4" library="mylib" deviceset="PCB_CORNER" device=""/>
-<part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device="_1.2" value="fcf31d8"/>
+<part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device="_1.2" value="b2588e1"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="ICON1" library="mylib" deviceset="ICON_REVISION" device="_1.7" value="r0.3"/>
 <part name="X1" library="mylib" deviceset="PHA-1X08*G" device="" technology="S"/>
