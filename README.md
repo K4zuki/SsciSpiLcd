@@ -9,7 +9,7 @@
 - 42x35mm pcb
     - 4~6 panelize
 - AkiSpiLcd compatible and extention
-    - 3-state buffers + NAND
+    - 541 buffer + 3-state buffer + NAND
 - 23K256 SRAM
     - persudo DMA
 - 3.3V LDO

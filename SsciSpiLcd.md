@@ -6,10 +6,10 @@
 # spec
 
 26.02x27.82 mm<sup>2</sup> LCD
-- 42x35mm pcb
-    - 4~6 panelize
+- 40x35mm pcb
+    - 4 panelize
 - AkiSpiLcd compatible and extention
-    - 3-state buffers + NAND
+    - 541 buffer + 3-state buffer + NAND
 - 23K256 SRAM
     - persudo DMA
 - 3.3V LDO
