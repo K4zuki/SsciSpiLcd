@@ -9461,7 +9461,9 @@ DIN A4, landscape with location and doc. field</description>
 <part name="SUPPLY6" library="mylib" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="mylib" deviceset="GND" device=""/>
 <part name="R2" library="mylib" deviceset="R_US_*" device="_1005" technology="10K"/>
-<part name="R1" library="mylib" deviceset="R_US_*" device="_1005" technology="10K"/>
+<part name="R1" library="mylib" deviceset="R_US_*" device="_1005" technology="10K">
+<attribute name="NOT_COMPONENT" value="YES"/>
+</part>
 <part name="R5" library="mylib" deviceset="R_US_*" device="_1005" technology="10K"/>
 <part name="R3" library="mylib" deviceset="R_US_*" device="_1005" technology="10K"/>
 <part name="R4" library="mylib" deviceset="R_US_*" device="_1005" technology="10K"/>
@@ -9540,7 +9542,9 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="SUPPLY6" gate="GND" x="157.48" y="68.58"/>
 <instance part="SUPPLY7" gate="GND" x="182.88" y="76.2"/>
 <instance part="R2" gate="G$1" x="83.82" y="160.02"/>
-<instance part="R1" gate="G$1" x="83.82" y="162.56"/>
+<instance part="R1" gate="G$1" x="83.82" y="162.56">
+<attribute name="NOT_COMPONENT" x="83.82" y="162.56" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R5" gate="G$1" x="83.82" y="147.32"/>
 <instance part="R3" gate="G$1" x="83.82" y="152.4"/>
 <instance part="R4" gate="G$1" x="83.82" y="149.86"/>
