@@ -9469,10 +9469,10 @@ DIN A4, landscape with location and doc. field</description>
 <parts>
 <part name="LCD1" library="mylib" deviceset="LCD_GLCD_400X240" device=""/>
 <part name="P1" library="mylib" deviceset="PCB_CORNER" device="_NH"/>
-<part name="P2" library="mylib" deviceset="PCB_CORNER" device="_NH"/>
+<part name="P2" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="P3" library="mylib" deviceset="PCB_CORNER" device="_NH"/>
 <part name="P4" library="mylib" deviceset="PCB_CORNER" device="_NH"/>
-<part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device="_1.2" value="3b55a5f"/>
+<part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device="_1.2" value="f108863"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="ICON1" library="mylib" deviceset="ICON_REVISION" device="_1.7" value="r0.3"/>
 <part name="X1" library="mylib" deviceset="PHA-1X08*G" device="" technology="S"/>
@@ -9520,13 +9520,14 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="160.02" y1="17.78" x2="160.02" y2="10.16" width="0.1524" layer="94"/>
 <wire x1="142.24" y1="17.78" x2="142.24" y2="10.16" width="0.1524" layer="94"/>
 <wire x1="147.32" y1="5.08" x2="154.94" y2="5.08" width="0.1524" layer="94"/>
+<circle x="157.48" y="20.32" radius="3.5921" width="0.3048" layer="94"/>
 </plain>
 <instances>
 <instance part="LCD1" gate="G$1" x="208.28" y="88.9">
 <attribute name="MOUSER" x="228.6" y="104.14" size="1.778" layer="96" rot="R180" display="both"/>
 </instance>
-<instance part="P1" gate="G$1" x="154.94" y="17.78" rot="R90"/>
-<instance part="P2" gate="G$1" x="147.32" y="17.78" rot="R180"/>
+<instance part="P1" gate="G$1" x="147.32" y="17.78" rot="R180"/>
+<instance part="P2" gate="G$1" x="154.94" y="17.78" rot="R90"/>
 <instance part="P3" gate="G$1" x="147.32" y="10.16" rot="R270"/>
 <instance part="P4" gate="G$1" x="154.94" y="10.16"/>
 <instance part="GIT1" gate="G$1" x="215.9" y="20.32"/>
@@ -9718,7 +9719,7 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="68.58" y1="162.56" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="147.32" x2="68.58" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="147.32" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="152.4" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="149.86" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="147.32" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
@@ -9727,9 +9728,6 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="147.32" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
 <junction x="68.58" y="147.32"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="152.4" x2="68.58" y2="152.4" width="0.1524" layer="91"/>
-<junction x="68.58" y="152.4"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="149.86" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
 <junction x="68.58" y="149.86"/>
@@ -9927,6 +9925,11 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="73.66" y1="160.02" x2="81.28" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <label x="71.12" y="160.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="73.66" y1="152.4" x2="81.28" y2="152.4" width="0.1524" layer="91"/>
+<label x="73.66" y="152.4" size="1.778" layer="95"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
