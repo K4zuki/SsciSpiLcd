@@ -515,6 +515,10 @@ SOT23-5&lt;br&gt;</description>
 <wire x1="0" y1="-0.6" x2="0" y2="-0.8" width="0.2" layer="31"/>
 <wire x1="0.5" y1="-0.6" x2="0.5" y2="-0.8" width="0.2" layer="31"/>
 <text x="0" y="0" size="1" layer="25" ratio="20" align="center">&gt;NAME</text>
+<wire x1="0.8" y1="0.6" x2="-0.8" y2="0.6" width="0.2" layer="51"/>
+<wire x1="-0.8" y1="0.6" x2="-0.8" y2="-0.6" width="0.2" layer="51"/>
+<wire x1="-0.8" y1="-0.6" x2="0.8" y2="-0.6" width="0.2" layer="51"/>
+<wire x1="0.8" y1="-0.6" x2="0.8" y2="0.6" width="0.2" layer="51"/>
 </package>
 <package name="IC_08_1.27_150MIL">
 <wire x1="2.4" y1="1.9" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
@@ -8838,14 +8842,17 @@ w/ 3-State Output</description>
 <technology name="">
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
+<attribute name="SMD_PAD" value="9"/>
 </technology>
 <technology name="3.3">
 <attribute name="DIGIKEY" value="296-32364-1-ND" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
+<attribute name="SMD_PAD" value="9"/>
 </technology>
 <technology name="5.0">
 <attribute name="DIGIKEY" value="296-19663-1-ND" constant="no"/>
 <attribute name="MOUSER" value="595-TLV1117-50CDRJR" constant="no"/>
+<attribute name="SMD_PAD" value="9"/>
 </technology>
 </technologies>
 </device>
@@ -8868,24 +8875,28 @@ w/ 3-State Output</description>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="" constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="0.1U">
 <attribute name="AKIZUKI" value="P-05650" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="" constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="1.0U">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="302010139" constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="10U">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="445-11238-1-ND" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="" constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 </technologies>
 </device>
@@ -8899,11 +8910,13 @@ w/ 3-State Output</description>
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="4.7U">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="490-9962-1-ND" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 </technologies>
 </device>
@@ -8927,54 +8940,63 @@ w/ 3-State Output</description>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="" constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="0.1U">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="490-3261-1-ND" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="302010024 " constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="1.0U">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="490-3890-1-ND" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="302010040 " constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="10P">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="490-5921-1-ND" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="302010001 " constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="10U">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="81-GRM155R60J106ME4D" constant="no"/>
 <attribute name="SEEED" value="302010053 " constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="12P">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="302010049 " constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="18P">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="490-5858-1-ND" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="302010016 " constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="2.2U">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="" constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="4.7U">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="302010019 " constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 </technologies>
 </device>
@@ -9087,66 +9109,77 @@ w/ 3-State Output</description>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="" constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="1.0K">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="P1.00KLCT-ND " constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="301010006 " constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="1.5K">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="P1.50KLCT-ND" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="301010001 " constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="100R">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="P100LCT-ND" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="301010028 " constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="10K">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="P10.0KLCT-ND" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="301010047 " constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="15K">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="P15.0KLCT-ND" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="301010042 " constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="220R">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="301010550 " constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="270R">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="" constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="33R">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="P33.0LCT-ND" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="301010609 " constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="4.7K">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="P4.70KLCT-ND" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="301010010 " constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 <technology name="75R">
 <attribute name="AKIZUKI" value="" constant="no"/>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="SEEED" value="301010058 " constant="no"/>
+<attribute name="SMD_PAD" value="2"/>
 </technology>
 </technologies>
 </device>
@@ -9253,6 +9286,7 @@ w/ 3-State Output</description>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="A106145CT-ND" constant="no"/>
+<attribute name="SMD_PAD" value="1"/>
 </technology>
 </technologies>
 </device>
@@ -9263,6 +9297,7 @@ w/ 3-State Output</description>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="36-5019CT-ND" constant="no"/>
+<attribute name="SMD_PAD" value="1"/>
 </technology>
 </technologies>
 </device>
@@ -9437,7 +9472,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="P2" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="P3" library="mylib" deviceset="PCB_CORNER" device=""/>
 <part name="P4" library="mylib" deviceset="PCB_CORNER" device=""/>
-<part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device="_1.2" value="b2588e1"/>
+<part name="GIT1" library="git-revision" deviceset="GIT-REVISION" device="_1.2" value="f4c890b"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="ICON1" library="mylib" deviceset="ICON_REVISION" device="_1.7" value="r0.3"/>
 <part name="X1" library="mylib" deviceset="PHA-1X08*G" device="" technology="S"/>
